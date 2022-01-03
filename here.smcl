@@ -1,0 +1,31 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}H:\git\isdatadoku\imputation\here.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 7 Feb 2020, 19:04:32
+{txt}
+{com}. 
+. global lst "1 2 3 4 5"
+{txt}
+{com}. 
+. foreach var in $lst {c -(}
+{txt}  2{com}.         
+.         global str "hey`var'yo"
+{txt}  3{com}.         di "$str"
+{txt}  4{com}.         {c )-}
+hey1yo
+hey2yo
+hey3yo
+hey4yo
+hey5yo
+{txt}
+{com}.         
+. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}H:\git\isdatadoku\imputation\here.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 7 Feb 2020, 19:04:32
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
